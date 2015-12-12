@@ -1,0 +1,38 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion '23.0.2'
+    defaultConfig {
+        applicationId "com.samsung.android.sdk.accessory.example.helloaccessory.provider"
+        minSdkVersion 16
+        targetSdkVersion 19
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile files('libs/accessory-v2.3.0.jar')
+    compile files('libs/sdk-v1.0.0.jar')
+    compile files('libs/remotesensor-v1.0.0.jar')
+}
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.3.0'
+    }
+}
+allprojects {
+    repositories {
+        jcenter()
+    }
+}

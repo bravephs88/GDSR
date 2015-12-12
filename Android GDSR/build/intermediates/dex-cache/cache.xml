@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\ajou\Desktop\Provider\libs\sdk-v1.0.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e2ce3786b6e9519934c4a54aaaaf39525bf4486c">
+        <dex dex="C:\Users\ajou\Desktop\Provider\build\intermediates\pre-dexed\debug\sdk-v1.0.0-364b4a90a41b6ce69e11b666f8d195b7477482c4.jar" />
+    </item>
+    <item
+        jar="C:\Users\ajou\Desktop\Provider\libs\remotesensor-v1.0.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="fc499c5f9ce4980ec8ada0dd857c8fe163dbe6b5">
+        <dex dex="C:\Users\ajou\Desktop\Provider\build\intermediates\pre-dexed\debug\remotesensor-v1.0.0-d7d71807fed5f4c5ec958cbf5ff88368f3351b89.jar" />
+    </item>
+    <item
+        jar="C:\Users\ajou\Desktop\Provider\libs\accessory-v2.3.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e538a7dcdba71b14a502832ba066daf8fa2a226c">
+        <dex dex="C:\Users\ajou\Desktop\Provider\build\intermediates\pre-dexed\debug\accessory-v2.3.0-54c909dfdbf72664e1f42cc2735ec936de59843e.jar" />
+    </item>
+
+</items>
